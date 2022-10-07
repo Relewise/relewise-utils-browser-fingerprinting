@@ -5,7 +5,7 @@
 Install via NPM or you preferred package manager: 
 
 ```
-npm install @relewise/browser-fingerprinting
+npm install @relewise/utils-browser-fingerprinting
 ```
 
 ## Usage examples

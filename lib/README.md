@@ -1,4 +1,4 @@
-# Relewise browser fingerprinting
+# Relewise utils browser fingerprinting
 
 This is the an official Relewise util for browser fingerprinting.
 

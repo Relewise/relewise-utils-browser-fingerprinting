@@ -1,3 +1,3 @@
 export * from './fingerprint-fragment';
-export * from './BrowserFingerPrintBuilder';
+export * from './browserFingerPrintBuilder';
 export * from './fragments';
