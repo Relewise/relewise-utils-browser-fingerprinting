@@ -1,8 +1,8 @@
-import { Canvas } from './fragments/Canvas';
-import { Languages } from './fragments/Languages';
-import { Plugins } from './fragments/Plugins';
-import { UserAgent } from './fragments/UserAgent';
-import { WebGL } from './fragments/WebGL';
+import { Canvas } from './fragments/canvas';
+import { Languages } from './fragments/languages';
+import { Plugins } from './fragments/plugins';
+import { UserAgent } from './fragments/userAgent';
+import { WebGL } from './fragments/webGL';
 
 export class BrowserFingerPrintBuilder {
 
