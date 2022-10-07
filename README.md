@@ -14,7 +14,7 @@ npm install @relewise/browser-fingerprinting
 await Fingerprint.get(`SALT`);
 ```
 
-The salt could be the Relewise dataset id.
+The salt could be the Relewise dataset id. Just make sure you use the same salt for all fringerprints.
 
 ## Using browser fingerprinting via CDN.
 
