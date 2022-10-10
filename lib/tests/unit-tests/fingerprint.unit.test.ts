@@ -5,6 +5,7 @@ const salt = '21f4f3ad-2340-470a-8a59-31313e06c157';
 
 test('Get generate fingerprint', async() => {
     const id: string | null = await Fingerprint.get(salt);
+    console.log(id);
     expect(id).toBeDefined();
 });
 
