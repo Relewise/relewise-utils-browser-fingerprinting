@@ -14,7 +14,7 @@ npm install @relewise/utils-browser-fingerprinting
 await Fingerprint.get(`SALT`);
 ```
 
-The salt could be the Relewise dataset id. Just make sure you use the same salt for all fringerprints.
+The salt could be the Relewise dataset id. Just make sure you use the same salt for all fingerprints.
 
 ## Using browser fingerprinting via CDN.
 
@@ -29,4 +29,4 @@ Otherwise you are welcome to open an Issue in our [issue tracker](https://github
 
 ## License
 
-relewise-sdk-javascript is licensed under the [MIT license](./LICENSE)
+relewise-utils-browser-fingerprinting is licensed under the [MIT license](./LICENSE)
