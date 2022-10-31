@@ -6,7 +6,7 @@ export class Fingerprint {
      * @param salt 
      * @returns Fingerprint identifier
      */
-    get(salt: string, format?: 'base64'| 'uft-8'): Promise<string | null> {
+    static async get(salt: string, format?: 'base64'| 'uft-8'): Promise<string | null> {
         return format === 'uft-8'
             ? Fingerprint.getUft8(salt)
             : Fingerprint.getBase64(salt);
@@ -55,7 +55,7 @@ export class Fingerprint {
     }
 
     private static browserFingerprint() {
-        return new BrowserFingerPrintBuilder().build();
+        return BrowserFingerPrintBuilder.build();
     }
 
     private static getRotator() {

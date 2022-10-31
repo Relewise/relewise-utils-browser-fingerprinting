@@ -14,7 +14,7 @@ export class BrowserFingerPrintBuilder {
         new WebGL(),
     ];
 
-    build(): string {
+    static build(): string {
         return BrowserFingerPrintBuilder.fragments.reduce((prev, current) => prev + current.get(), '');
     }
 }
