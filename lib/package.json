@@ -1,10 +1,10 @@
 {
   "name": "@relewise/utils-browser-fingerprinting",
   "version": "1.0.0",
-  "description": "Relewise is a next generation personalization SaaS-platform, which offers functionality within product- and content recommendations and personalized search. This official SDK helps you interact with our API.",
+  "description": "Relewise util for generating unique browser fingerprints",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Relewise/relewise-sdk-javascript.git",
+    "url": "git+https://github.com/Relewise/relewise-utils-browser-fingerprinting",
     "directory": "lib"
   },
   "author": "Relewise",
@@ -15,9 +15,9 @@
     "recommendations",
     "personalization"
   ],
-  "main": "dist/cjs/relewise-client.js",
-  "module": "dist/esm/relewise-client.js",
-  "browser": "dist/browser/relewise-client.js",
+  "main": "dist/cjs/relewise-utils-browser-fingerprinting.js",
+  "module": "dist/esm/relewise-utils-browser-fingerprinting.js",
+  "browser": "dist/browser/relewise-utils-browser-fingerprinting.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
