@@ -1,8 +1,8 @@
 import { Canvas } from './fragments/canvas';
-import { DeviceMemory } from './fragments/DeviceMemory';
+import { DeviceMemory } from './fragments/deviceMemory';
 import { Languages } from './fragments/languages';
 import { Plugins } from './fragments/plugins';
-import { TimeZone } from './fragments/TimeZone';
+import { TimeZone } from './fragments/timeZone';
 import { UserAgent } from './fragments/userAgent';
 import { WebGL } from './fragments/webGL';
 
