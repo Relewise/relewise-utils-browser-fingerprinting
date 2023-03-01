@@ -18,7 +18,7 @@ The salt could be the Relewise dataset id. Just make sure you use the same salt 
 
 ## Using browser fingerprinting via CDN.
 
-For more information about how to use browser fingerprinting via CDN - go to our [docs site](https://docs.relewise.com/docs/developer/libraries.html).
+For more information about how to use browser fingerprinting via CDN - go to our [docs site](https://docs.relewise.com/docs/developer/getting-started.html#_2-choose-your-technology).
 
 ## Contributing
 
